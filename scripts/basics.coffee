@@ -17,4 +17,11 @@ module.exports = (robot) ->
   robot.hear /brooklyn/i, (res) ->
     res.send "Brookie wookie wants a cookie, made a mistake and ate some cake"
 
+  joke = ['one', 'two', 'three']
+
+  robot.hear /tell me a joke/i, (res) ->
+    res.send res.random joke
+
+
+
   
