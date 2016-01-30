@@ -11,5 +11,6 @@ module.exports = (robot) ->
   robot.respond /hola/i, (res) ->
     res.send "hola amigo"
 
-
+  robot.hear /hi/i, (res) ->
+    res.send "Greetings" 
   
