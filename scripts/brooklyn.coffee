@@ -11,9 +11,6 @@ module.exports = (robot) ->
   robot.respond /hola/i, (res) ->
     res.send "hola amigo"
 
-  robot.hear /mercer/i, (res) ->
-    res.send "Mercer? My name is Mercer." 
-	
   robot.respond /hello/i, (res) ->
     res.send "Greetings"
 	
@@ -28,6 +25,9 @@ module.exports = (robot) ->
 	
   robot.respond /surprise/i, (res) ->
     res.send ":o"
+	
+  robot.respond /cookie/i, (res) ->
+    res.send ":cookie:"
 	
  
   
