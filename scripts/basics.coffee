@@ -13,6 +13,9 @@ module.exports = (robot) ->
   robot.hear /badger/i, (res) ->
     res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
  
+  robot.hear /Starbucks password/i, (res) ->
+    res.send "Password4*$"
+    
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
   #   if doorType is "pod bay"
