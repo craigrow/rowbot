@@ -17,7 +17,7 @@ module.exports = (robot) ->
   robot.hear /brooklyn/i, (res) ->
     res.send "Brookie wookie wants a cookie, made a mistake and ate some cake"
 
-  joke = ['Always borrow money from a pessimist, he won't expect it back, 'people who thing they know everything really annoy those of who do', 'Don't take life too seriously, you won't get out alive', 'I can resist everything except temptation', 'Dear math, please grow up and solve your own problems']
+  joke = ['Always borrow money from a pessimist, he won't expect it back','people who thing they know everything really annoy those of who do', 'Don't take life too seriously, you won't get out alive', 'I can resist everything except temptation', 'Dear math, please grow up and solve your own problems']
 
   robot.hear /say something funnys/i, (res) ->
     res.send res.random joke
