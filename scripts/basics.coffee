@@ -22,6 +22,8 @@ module.exports = (robot) ->
   robot.hear /say something funny/i, (res) ->
     res.send res.random joke
 
+  robot.respond /hola/i, (res) ->
+    res.send "hola amigo"
 
 
   
