@@ -19,7 +19,7 @@ module.exports = (robot) ->
 
   joke = ['one', 'two', 'three']
 
-  robot.hear /tell me a joke/i, (res) ->
+  robot.hear /say something funny/i, (res) ->
     res.send res.random joke
 
 
