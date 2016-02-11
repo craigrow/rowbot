@@ -7,12 +7,9 @@ module.exports = (robot) ->
 
   robot.hear /badger/i, (res) ->
     res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
- 
-  robot.hear /Starbucks password/i, (res) ->
-    res.send "Password4*$"
 
   robot.hear /brooklyn/i, (res) ->
-    res.send "Brookie wookie wants a cookie, made a mistake and ate some cake"
+    res.send "Brookie wookie wants a cookie"
 
   joke = ['One', 'two', 'three']
 
