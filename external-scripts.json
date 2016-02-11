@@ -11,5 +11,6 @@
   "hubot-shipit",
   "hubot-heroku-keepalive",
   "hubot-schedule",
-  "hubot-responders"
+  "hubot-responders",
+  "hubot-cleverbot"
 ]
